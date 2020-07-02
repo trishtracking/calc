@@ -28,15 +28,6 @@ button, .calculator .calculator_display {
   padding: 1rem;
 }
 
-
-/* 
- * Completely resets form items
- * ----------------------------
- * Super hard reset that removes all borders
- * and radiuses of all form items (including
- * checkboxes and radios)
- */
-
   .container {
       display: grid; 
       font-size: 1em;
@@ -49,14 +40,6 @@ button, .calculator .calculator_display {
     width: 13em; 
     position: relative;
   }
-
-  // NOTE: You don't need to mess around with 
-  // CSS to follow the tutorial. Focus on the 
-  // JavaScript instead!
-  // =========================
-  
-  // Some personal resets
- 
   
   *,
   *::before,
