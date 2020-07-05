@@ -13,7 +13,6 @@ body {
     font-family: monospace;
   }
 
-
 input,
 textarea,
 button, .calculator .calculator_display {
@@ -51,60 +50,7 @@ button, .calculator .calculator_display {
     margin: 0;
   }
   
-  /* Responsive Images */
-  
-  embed,
-  iframe,
-  img,
-  object,
-  video {
-    max-width: 100%;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  ul,
-  ol,
-  li,
-  p,
-  pre,
-  blockquote,
-  figure,
-  hr {
-    margin: 0;
-    padding-right: 0;
-    padding-left: 0;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  a:focus {
-    outline: none;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    display: block;
-  }
-  
-  /* Removes all decimals and discs from lists */
-  
-  ol,
-  ul {
-    list-style: none;
-  }
-
-  input:hover,
+  /* input:hover,
   input:active,
   input:focus,
   textarea:hover,
@@ -114,8 +60,7 @@ button, .calculator .calculator_display {
   button:active,
   button:focus {
     outline: none;
-  }
- 
+  } */
   
   .container {
     max-width: 30em;
@@ -161,7 +106,7 @@ button, .calculator .calculator_display {
   .calculator_keys > .is-depressed::before {
     background-color: rgba(0, 0, 0, 0.2);
     bottom: 0;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8) inset;
     content: "";
     left: 0;
     opacity: 0.3;
